@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/liblsvm_exe.a  CMakeFiles/lsvm_exe.dir/CLSvmDetector.cpp.o CMakeFiles/lsvm_exe.dir/latentsvm_multidetect.cpp.o
+/usr/bin/ranlib ../../lib/liblsvm_exe.a

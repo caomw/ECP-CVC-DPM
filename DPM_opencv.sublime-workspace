@@ -1,0 +1,913 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inc",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/libdpm/routine.cpp",
+			"settings":
+			{
+				"buffer_size": 3424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/libdpm/objdetect.hpp",
+			"settings":
+			{
+				"buffer_size": 37303,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/libdpm/latentsvm.cpp",
+			"settings":
+			{
+				"buffer_size": 22575,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/libdpm/matching.cpp",
+			"settings":
+			{
+				"buffer_size": 61567,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/latentsvm/CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 570,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 114 files for \"FFT_CONV\"\n\n/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libdpm/_lsvm_types.h:\n    4  #include \"float.h\"\n    5  \n    6: //#define FFT_CONV\n    7  \n    8  #define PI    CV_PI\n\n/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libdpm/matching.cpp:\n  620      int res;\n  621      CvLSVMFeatureMap *map;\n  622: #ifdef FFT_CONV\n  623      CvLSVMFftImage *rootFilterImage, *mapImage;\n  624  #else\n  ...\n  667  \n  668      // A dot product vectors of feature map and weights of root filter\n  669: #ifdef FFT_CONV\n  670      getFFTImageFeatureMap(H->pyramid[level], &mapImage);\n  671      getFFTImageFilterObject(all_F[0], H->pyramid[level]->sizeX, H->pyramid[level]->sizeY, &rootFilterImage);\n  ...\n  701      // Computation the maximum of score function\n  702      sumScorePartDisposition = 0.0;\n  703: #ifdef FFT_CONV\n  704      getFFTImageFeatureMap(map, &mapImage);\n  705      for (k = 1; k <= n; k++)\n  ...\n  869      int res;\n  870      CvLSVMFeatureMap *map;\n  871: #ifdef FFT_CONV\n  872      CvLSVMFftImage *rootFilterImage, *mapImage;\n  873  #else\n  ...\n  914      scores = (float *)malloc(sizeof(float) * (diff1 * diff2));\n  915      // A dot product vectors of feature map and weights of root filter\n  916: #ifdef FFT_CONV\n  917      getFFTImageFeatureMap(H->pyramid[level], &mapImage);\n  918      getFFTImageFilterObject(all_F[0], H->pyramid[level]->sizeX, H->pyramid[level]->sizeY, &rootFilterImage);\n  ...\n  947      // Computation the maximum of score function\n  948      sumScorePartDisposition = 0.0;\n  949: #ifdef FFT_CONV\n  950      getFFTImageFeatureMap(map, &mapImage);\n  951      for (k = 1; k <= n; k++)\n\n7 matches across 2 files\n\n\nSearching 114 files for \"FFT_CONV\"\n\n/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libdpm/_lsvm_types.h:\n    4  #include \"float.h\"\n    5  \n    6: //#define FFT_CONV\n    7  \n    8  #define PI    CV_PI\n\n/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libdpm/matching.cpp:\n  620      int res;\n  621      CvLSVMFeatureMap *map;\n  622: #ifdef FFT_CONV\n  623      CvLSVMFftImage *rootFilterImage, *mapImage;\n  624  #else\n  ...\n  667  \n  668      // A dot product vectors of feature map and weights of root filter\n  669: #ifdef FFT_CONV\n  670      getFFTImageFeatureMap(H->pyramid[level], &mapImage);\n  671      getFFTImageFilterObject(all_F[0], H->pyramid[level]->sizeX, H->pyramid[level]->sizeY, &rootFilterImage);\n  ...\n  701      // Computation the maximum of score function\n  702      sumScorePartDisposition = 0.0;\n  703: #ifdef FFT_CONV\n  704      getFFTImageFeatureMap(map, &mapImage);\n  705      for (k = 1; k <= n; k++)\n  ...\n  869      int res;\n  870      CvLSVMFeatureMap *map;\n  871: #ifdef FFT_CONV\n  872      CvLSVMFftImage *rootFilterImage, *mapImage;\n  873  #else\n  ...\n  914      scores = (float *)malloc(sizeof(float) * (diff1 * diff2));\n  915      // A dot product vectors of feature map and weights of root filter\n  916: #ifdef FFT_CONV\n  917      getFFTImageFeatureMap(H->pyramid[level], &mapImage);\n  918      getFFTImageFilterObject(all_F[0], H->pyramid[level]->sizeX, H->pyramid[level]->sizeY, &rootFilterImage);\n  ...\n  947      // Computation the maximum of score function\n  948      sumScorePartDisposition = 0.0;\n  949: #ifdef FFT_CONV\n  950      getFFTImageFeatureMap(map, &mapImage);\n  951      for (k = 1; k <= n; k++)\n\n7 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 3376,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/libdpm/fft.cpp",
+			"settings":
+			{
+				"buffer_size": 7539,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				":e",
+				":$ - EOF"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":x",
+				"Set Syntax: XML"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"dir",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/latentsvm/CMakeLists.txt",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libdpm/latentsvmdetector.cpp",
+		"/home/lufang/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/lufang/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libdpm/latentsvm.cpp",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libdpm/CMakeLists.txt",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libutil/CStopwatch.cpp",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libutil/CStopwatch.h",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/CMakeLists.txt",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libutil/CMakeLists.txt",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/latentsvm/latentsvm_multidetect.cpp",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/OpenDPMConfig.cmake.in",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libutil/.CMakeLists.txt.un~",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libdpm/objdetect.hpp",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/libdpm/a.txt",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/latentsvm_multidetect.cpp",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/latentsvm_multidetect.cpp",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/src/CMakeLists.txt",
+		"/home/lufang/Workspace/cxx/DPM_Detection/OpenCV_ver/OpenDPMCOnfig.cmake.in",
+		"/Users/lufang/Desktop/code/ProbTracker_Submitted/ProbTracker.cxx",
+		"/Users/lufang/Desktop/code/ProbTracker_Submitted/COxfordFeatureList.cxx",
+		"/Users/lufang/Workspace/cxx/GRE_PREP/GRE_table"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"FFT_CONV",
+			"TickMeter\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTickMeter\nTickMeter",
+			"Flag",
+			";\n",
+			"pow",
+			"),",
+			"OxfordFeature",
+			"pow"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/libdpm/routine.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2178,
+								2178
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 411.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/libdpm/objdetect.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7817,
+								7817
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 993.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/libdpm/latentsvm.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10267,
+								10267
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5192.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/libdpm/matching.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								428,
+								428
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/latentsvm/CMakeLists.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3376,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										165,
+										173
+									],
+									[
+										355,
+										363
+									],
+									[
+										538,
+										546
+									],
+									[
+										845,
+										853
+									],
+									[
+										1014,
+										1022
+									],
+									[
+										1259,
+										1267
+									],
+									[
+										1566,
+										1574
+									],
+									[
+										1854,
+										1862
+									],
+									[
+										2044,
+										2052
+									],
+									[
+										2227,
+										2235
+									],
+									[
+										2534,
+										2542
+									],
+									[
+										2703,
+										2711
+									],
+									[
+										2948,
+										2956
+									],
+									[
+										3255,
+										3263
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								3351,
+								3351
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1435.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/libdpm/fft.cpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 7539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 741.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"project": "DPM_opencv.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 348.0,
+		"selected_items":
+		[
+			[
+				"convo",
+				"convolution"
+			],
+			[
+				"thresholdFunctionalScore",
+				"thresholdFunctionalScoreFixedLevel"
+			],
+			[
+				"threshold",
+				"thresholdFunctionalScoreFixedLevel"
+			],
+			[
+				"threhold",
+				"thresholdFunctionalScore"
+			],
+			[
+				"searchObjectThresholdSomeComponents",
+				"searchObjectThresholdSomeComponents"
+			],
+			[
+				"CvLatentSvmDetector",
+				"CvLatentSvmDetector"
+			],
+			[
+				"createFea",
+				"createFeaturePyramidWithBorder"
+			]
+		],
+		"width": 728.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
